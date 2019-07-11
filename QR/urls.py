@@ -19,5 +19,5 @@ from core.views import QRDareView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('qr/<str:token>/', QRDareView.as_view())
+    path('qr/<str:token>', QRDareView.as_view())
 ]
